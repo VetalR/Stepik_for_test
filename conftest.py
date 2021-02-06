@@ -8,8 +8,6 @@ def pytest_addoption(parser):
     parser.addoption('--language', action='store', default=None,
                      help="Choose language")
 
-123213213
-213213231S
 
 @pytest.fixture(scope="function")
 def browser(request):
