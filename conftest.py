@@ -12,6 +12,9 @@ def pytest_addoption(parser):
 
 
 @pytest.fixture(scope="function")
+123213213
+213213231123213213
+213213231
 def browser(request):
     user_language = request.config.getoption("language")
     browser_name = request.config.getoption("browser_name")
